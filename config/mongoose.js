@@ -4,7 +4,7 @@ main().catch((err) => console.log(err));
 
 //connecting to mongodb
 async function main() {
-  await mongoose.connect("mongodb://127.0.0.1:27017/Polling_Api_Project");
+  await mongoose.connect("mongodb+srv://rajithsuvarna49:rajithsuvarna49@cluster0.akl1rbl.mongodb.net/?retryWrites=true&w=majority");
 }
 
 // Code for using the cloud mongodb atlas
